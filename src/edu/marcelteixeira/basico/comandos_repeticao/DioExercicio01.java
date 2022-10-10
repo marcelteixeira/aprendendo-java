@@ -3,7 +3,7 @@
  * O programa deve continuar recebendo esses valores até que seja digitado 0 no campo nome.
  */
 
- 
+package edu.marcelteixeira.basico.comandos_repeticao;
 
 import java.util.Scanner;
 
