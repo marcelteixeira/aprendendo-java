@@ -8,7 +8,7 @@ package edu.marcelteixeira.basico.comandos_repeticao;
 
 import java.util.Scanner;
 
-public class DioExercicio07 {
+public class DioExercicio08 {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -32,9 +32,10 @@ public class DioExercicio07 {
                     caracteres[i] = caractereDigitado;
                     contadorConsoantes++;
             }
-
-            scanner.close();
         }
+        scanner.close();
+
+        
         System.out.println();
         System.out.print("Consoantes digitadas: ");
         for(String caracter : caracteres){
