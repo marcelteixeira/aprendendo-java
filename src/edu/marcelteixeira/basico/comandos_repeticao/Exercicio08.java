@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio08 {
 
     public static void main(String[] args) {
-        int resultado = 0, idadeDigitada, quantidadeMaioresIdade = 0;
+        int idadeDigitada, quantidadeMaioresIdade = 0;
 
         for(int i = 1; i <= 20; i++){
             System.out.print(i + "- Digita a idade: ");   

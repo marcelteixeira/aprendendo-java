@@ -13,6 +13,7 @@ public class DioExercicio01 {
 
         String nome = "";
         int idade;
+        
 
         
 
@@ -28,6 +29,8 @@ public class DioExercicio01 {
 
             System.out.println(nome + " " + idade);
         }
+
+        scanner.close();
 
     }
 }

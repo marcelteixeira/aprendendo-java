@@ -1,4 +1,4 @@
-package edu.marcelteixeira.basico;
+package edu.marcelteixeira.basico.desafios;
 
 import java.util.Scanner;
 
@@ -9,12 +9,12 @@ public class buscaSequencial {
 
         int[] elementos = {64, 137, -16, 43, 67, 81, -90, 212, 10, 75}; 
 
-        //TODO: Retorne o valor do elemento no Array junto de sua respectiva posição.
+        //DONE: Retorne o valor do elemento no Array junto de sua respectiva posição.
         System.out.println("Qual valor deseja procurar?");
         buscarValor(elementos, leitor.nextInt());
-
+        leitor.close();
     }
-
+    
     public static void buscarValor(int[] elementos, int valor){
         boolean numeroEncontrado = false;
         for(int i = 0; i < elementos.length; i++){

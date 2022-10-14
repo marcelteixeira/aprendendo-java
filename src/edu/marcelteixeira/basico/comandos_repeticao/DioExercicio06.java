@@ -18,5 +18,7 @@ public class DioExercicio06 {
             
         }
         System.out.println(fatorial);
+
+        scanner.close();
     }
 }

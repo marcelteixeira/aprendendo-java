@@ -16,7 +16,7 @@ public class DioExercicio03 {
         int numeroDigitado;
         int somaNumeros = 0;
         int maiorNumero = 0;
-        int media;
+        
 
         for(int i = 0; i < 5; i++){
             System.out.print("Digite o número: ");
@@ -33,7 +33,7 @@ public class DioExercicio03 {
 
         System.out.println("O maior número digitado foi: " + maiorNumero);
         System.out.println("A media dos valores digitados é: " + somaNumeros / 5);
-
+        scanner.close();
     }
 
 }

@@ -23,6 +23,8 @@ public class DioExercicio05 {
             System.out.println(numero + " X " + i + " = " + (numero * i));
         }
 
+        scanner.close();
+
     }
     
 }

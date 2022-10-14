@@ -1,11 +1,11 @@
-package edu.marcelteixeira.basico;
+package edu.marcelteixeira.basico.desafios;
 
 import java.util.Scanner;
 
 public class numerosaSaoIguais {
     public static void main(String[] args) {
 
-        //TODO: Imprima se os valores numéricos passados são iguais ou não.
+        //DONE: Imprima se os valores numéricos passados são iguais ou não.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro numero: ");
         int A = scanner.nextInt();

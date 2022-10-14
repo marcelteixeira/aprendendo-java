@@ -28,7 +28,7 @@ public class DioExercicio04 {
         System.out.println("Numeros Pare: " + contadorPares);
         System.out.println("Numeros Impares: " + contadorImpares);
 
-
+        scanner.close();
 
     }
 
@@ -40,6 +40,7 @@ public class DioExercicio04 {
         while(true){
             System.out.print("Digite S para continuar ou N para parar: ");
             opcao = scanner.next();
+            scanner.close();
             if(opcao.contentEquals("s") | opcao.contentEquals("S")){
                 return true;
             }else if(opcao.contentEquals("n") | opcao.contentEquals("N")){
@@ -48,5 +49,7 @@ public class DioExercicio04 {
                 System.out.println("Opcao invalida. Tente novamente.");
             }
         }
+
+        
     }
 }

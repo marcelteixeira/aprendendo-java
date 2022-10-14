@@ -1,4 +1,4 @@
-package edu.marcelteixeira.basico;
+package edu.marcelteixeira.basico.desafios;
 
 import java.util.Scanner;
 
@@ -9,7 +9,8 @@ public class chamadaRecursiva {
         System.out.println("Digite um numero:");
         somatorio(numero.nextInt(), total);
         
-        //TODO: Imprima o somatório de N (utilize o método "somatorio").
+        numero.close();
+        //DONE: Imprima o somatório de N (utilize o método "somatorio").
     }
 
     /**
