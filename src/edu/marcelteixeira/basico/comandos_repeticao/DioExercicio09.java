@@ -4,15 +4,18 @@
  */
 package edu.marcelteixeira.basico.comandos_repeticao;
 
+import java.util.Random;
+
 public class DioExercicio09 {
 
     
     public static void main(String[] args) {
         
         int[] numeroDigitados = new int[20];
+        Random random = new Random();
         int  numeroAleatorio;
         for(int i = 0; i < numeroDigitados.length; i++){
-            numeroAleatorio = (int) (Math.random() * 100);
+            numeroAleatorio = random.nextInt(100);
             System.out.println("Digite um número: " + numeroAleatorio);
             numeroDigitados[i] = numeroAleatorio;
         }
