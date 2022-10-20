@@ -1,4 +1,4 @@
-package edu.marcelteixeira.relacoes_heranca_associacao_interface.exercicio_02_2;
+package edu.marcelteixeira.relacoes_heranca_associacao_interface.exercicio_02_2_heranca;
 
 public class ClasseFilha2 extends ClasseMae  {
 
